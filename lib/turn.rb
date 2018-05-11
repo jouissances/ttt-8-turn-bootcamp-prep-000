@@ -41,6 +41,6 @@ def turn(board)
   if valid_move? == true
     move
   else
-    turn(board)
+    turn
   end
 end
